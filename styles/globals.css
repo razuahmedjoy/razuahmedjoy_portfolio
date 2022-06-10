@@ -8,6 +8,13 @@
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
   }
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    font-size: 22px;
+}
 @layer base{
     body{
         @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
